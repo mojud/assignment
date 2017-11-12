@@ -92,6 +92,13 @@ main{
 
 }
 
+.about-col {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
 .txt h2{
   text-align: center;
 
@@ -139,6 +146,51 @@ main{
   position: relative;
   vertical-align: top;
   border-top: 4px solid #e9903a;
+}
+
+.support{
+  display: inline-block;
+  margin: 16px;
+  width: 70%;
+  
+  text-align: left;
+  padding: 10px;
+  position: relative;
+  border-top: 4px solid #e9903a;
+  text-align: center;
+}
+
+.test-1, .test-2, .test-3, .test-4, .test-5, .test-6{
+  display: inline-block;
+  margin: 16px;
+  width: 20%;
+  background-color: #caffcd;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+  vertical-align: top;
+  border-top: 4px solid #e9903a;
+}
+
+.test-1 img, .test-2 img, .test-3 img{
+  width: 50%;
+}
+
+.about{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  text-align: left;
+  padding: 10px;
+  position: fixed;
+  vertical-align: top;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.about img{
+  width: 50%;
 }
 
 
@@ -209,5 +261,6 @@ footer{
 
 .vid{
   width: 100%;
-  height: auto;
+  min-height: 250px;
+  z-index: 2;
 }
